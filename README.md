@@ -11,9 +11,9 @@ npm install vite-federation-dynamic-import
 ## Usage
 
 ```js
-import { dynamicImport } from 'vite-federation-dynamic-import';
+import { importRemote } from 'vite-federation-dynamic-import';
 
-const remote = await dynamicImport('http://localhost:3001/remoteEntry.js');
+const remote = await importRemote('http://localhost:3001/remoteEntry.js');
 ```
 
 
