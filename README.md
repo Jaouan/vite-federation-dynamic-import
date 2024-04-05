@@ -19,7 +19,7 @@ const remote = await importRemote('http://localhost:3001/remoteEntry.js');
 
 Remember that you still need to enable host capabilities in the `vite.config.js` file:
 
-```js:highlight={8,10}
+```js
 import federation from '@originjs/vite-plugin-federation'
 
 export default defineConfig({
@@ -27,9 +27,9 @@ export default defineConfig({
     federation({
         name: 'host',
         filename: 'remoteEntry.js',
-        remotes: {
-            dummy: ""
-        },
++       remotes: {
++           dummy: ""
++       }
     })
   ],
 })
