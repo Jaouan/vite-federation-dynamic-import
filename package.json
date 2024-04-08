@@ -1,15 +1,13 @@
 {
   "name": "vite-federation-dynamic-import",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "license": "MIT",
   "keywords": [
-    "codelab",
-    "ssg",
-    "training",
-    "react",
-    "firebase",
-    "docusaurus"
+    "module",
+    "federation",
+    "import",
+    "remote"
   ],
   "homepage": "https://github.com/Jaouan/vite-federation-dynamic-import",
   "bugs": {
